@@ -1,0 +1,88 @@
+{
+  "post": [
+    {
+      "username": "jayson",
+      "password": "jayson",
+      "firstname": "jayson",
+      "middlename": "jayson",
+      "lastname": "jayson",
+      "email": "Jayequino@gmail.com",
+      "id": 9
+    }
+  ],
+  "users": [],
+  "products": [
+    {
+      "id": 1,
+      "title": "LENOVO",
+      "price": 25000.99,
+      "description": "Intel Core i7 U series or G series/ AMD Ryzen Mobile CPU",
+      "category": "laptops",
+      "image": "assets/images/categories/gadgets/laptops/lenovo.png"
+    },
+    {
+      "id": 2,
+      "title": "OPPO",
+      "price": 7000,
+      "description": "OPPO Reno4Z 5G",
+      "category": "cellphones",
+      "image": "assets/images/categories/gadgets/laptops/oppo.png"
+    },
+    {
+      "id": 3,
+      "title": "AMD RYZEN 5 4650G",
+      "price": 23000,
+      "description": "500 GB SSD with rx radeon vega graphics for gaming",
+      "category": "computers",
+      "image": "assets/images/categories/gadgets/laptops/ryzen.png"
+    },
+    {
+      "id": 4,
+      "title": "SAMSUNG",
+      "price": 12000,
+      "description": "Galaxy A22 5G",
+      "category": "cellphones",
+      "image": "assets/images/categories/gadgets/laptops/samsung1.png"
+    },
+    {
+      "id": 5,
+      "title": "AZUS zenbook",
+      "price": 32000.99,
+      "description": "AMD Ryzen 7 6800U processor",
+      "category": "laptops",
+      "image": "assets/images/categories/gadgets/laptops/azus.webp"
+    },
+    {
+      "id": 6,
+      "title": "REALME 10i",
+      "price": 49300,
+      "description": "8 GB of RAM + 128 GB of internal storage",
+      "category": "cellphones",
+      "image": "assets/images/categories/gadgets/laptops/realme.png"
+    },
+    {
+      "id": 7,
+      "title": "DELL",
+      "price": 99000,
+      "description": "Processor 10th Generation Intel® Core™ i3-1005G1 | 3.4 GHz",
+      "category": "laptops",
+      "image": "assets/images/categories/gadgets/laptops/delllaptop.png"
+    },
+    {
+      "id": 8,
+      "title": "RYZEN 3",
+      "price": 27500,
+      "description": "Tempest RX 6600 XT PC",
+      "category": "computers",
+      "image": "assets/images/categories/gadgets/laptops/systemunit.png"
+    },
+    {
+      "id": 9,
+      "title": "RYZEN 5 3600",
+      "price": 29500,
+      "description": " GPU: Biostar GT730-4BG",
+      "category": "computers",
+      "image": "assets/images/categories/gadgets/laptops/systemunit1.jpg"
+    }
+  ]
+}

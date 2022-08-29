@@ -1,0 +1,25 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <img src="https://www.logolynx.com/images/logolynx/ee/eeebd6f03cea172ad149f2095d575de0.png"/>&nbsp;
+                
+         
+            <strong style="font-size: 20px;">WELCOME!</strong>
+            <div class="form-group">
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="search products">
+                
+            </div>
+            &nbsp;
+              <div class="text-end">
+                  <a class="btn btn-outline-light me-2"href="/signup">Sign-Up</a>&nbsp;
+                  <a class="btn btn-outline-light me-2" href="/login">Login</a>
+                  <button routerLink="/login" class="btn btn-danger mx-2">  <i class='fas fa-user'>Logout</i></button>
+                </div>   
+        </div>
+        <button routerLink="/cart" class="btn btn-primary"><strong>My Cart</strong>
+            <i style="font-size: 35px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger">{{totalItem}}</div>
+        </button>
+    </div>
+  </header>
+  

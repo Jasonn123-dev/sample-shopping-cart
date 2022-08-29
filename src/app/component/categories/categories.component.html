@@ -1,0 +1,28 @@
+
+<div class="card-top container-fluid">
+    <div class="container d-flex">
+        <div class="item">
+            <a (click)="filter('')">
+                
+                <h4><strong>ALL PRODUCTS</strong></h4>
+            </a>
+        </div>
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+               <strong>SELECT CATEGORIES</strong> 
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <div class="item">
+                <a (click)="filter('laptops')" class="dropdown-item">Laptops</a>
+                </div>
+                <div class="item">
+                <a a (click)="filter('cellphones')" class="dropdown-item">Cellphones</a>
+                </div>
+                <div class="item">
+                <a a (click)="filter('computers')" class="dropdown-item">Computers</a>
+            </div> 
+        </ul>
+    </div>
+</div>
+</div>
+

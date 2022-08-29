@@ -1,0 +1,26 @@
+.card{
+    margin-top: 100px;
+    width: 1000px;
+    height: 400px;
+    padding: 40px;
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-image: url(https://th.bing.com/th/id/OIP.h3z57mm74MJ1qZLh91HUtQHaE8?pid=ImgDet&rs=1);
+
+}
+
+.card h1 , h6{
+    color: white;
+}
+
+label{
+    color: white;
+}
+.eye{
+    position: absolute;
+    top: 265px;
+    right : 50px;
+    cursor: pointer;
+}
